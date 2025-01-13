@@ -1,20 +1,13 @@
 # Predicting Development of Frailty Among Middle-Aged and Older Adults Using Machine Learning
 
 ## Overview
-This repository contains the code and analysis for the study **"Predicting Development of Frailty Among Middle-Aged and Older Adults Using Machine Learning."**  
-We developed a machine learning model to predict the onset of frailty using data routinely collected in primary care. The study used data from Waves 1 and 2 of the Survey of Health, Aging, and Retirement in Europe (SHARE).  
+This repository contains the code and analysis for the study **"Predicting Development of Frailty Among Middle-Aged and Older Adults Using Machine Learning."** We developed a machine learning model to predict the onset of frailty using data routinely collected in primary care. The study used data from Waves 1 and 2 of the Survey of Health, Aging, and Retirement in Europe (SHARE).  
 
 ### Key Features
 - **Objective:** Predict frailty onset using EMR-compatible data.  
 - **Dataset:** SHARE-FI data, Waves 1 (2004) and 2 (2006/2007).  
 - **Model:** Artificial Neural Network (ANN).  
-- **Outcome:** Binary frailty status (frail vs. pre-frail/non-frail).  
-
-### Main Results
-- **AUC:** 0.82 (SD = 0.01).  
-- **Accuracy:** 77% (SD = 2%).  
-- **Sensitivity:** 74% (SD = 4%).  
-- **Specificity:** 77% (SD = 2%).  
+- **Outcome:** Binary frailty status (frail vs. pre-frail/non-frail).
 
 ## Getting Started
 ### Prerequisites
@@ -48,4 +41,3 @@ The codebase relies on R and Python for data preprocessing, analysis, and model 
 For inquiries or collaboration opportunities, please contact the corresponding author:  
 **Jacob Ellen, MSc**  
 [jellen@hms.harvard.edu](mailto:jellen@hms.harvard.edu)  
-
