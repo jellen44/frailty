@@ -3,8 +3,8 @@
 # =========================================
 
 # Setting directory to where the downloaded SHARE files are
-setwd("/Users/jacobellen/dropbox/Frailty/SHARE2")
-# Example: "/Users/jacobellen/dropbox/Frailty/SHARE2"
+setwd()
+# Example: setwd("/Users/jacobellen/dropbox/Frailty/SHARE2")
 
 # **Accessing Data**
 # - Download SHARE Wave 1 and Wave 2 in SPSS format.
@@ -539,5 +539,5 @@ mean(share_final$Months_Between_Appointments)
 sd(share_final$Months_Between_Appointments)
 
 # SAVING FINAL FILE
-write.csv(share_final, file="/Users/jacobellen/dropbox/Preprocessed_SHARE.csv",
+write.csv(share_final, file="Preprocessed_SHARE.csv",
           row.names=FALSE)
