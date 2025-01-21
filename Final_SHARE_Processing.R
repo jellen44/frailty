@@ -3,8 +3,14 @@
 # =========================================
 
 # Setting directory to where the downloaded SHARE files are
-setwd()
+setwd("")
 # Example: setwd("/Users/jacobellen/dropbox/Frailty/SHARE2")
+
+# Setting path to save preprocessed file
+file_save_path <- ""
+# Example: "/Users/jacobellen/dropbox/Frailty/SHARE2/Preprocessed_SHARE.csv"
+
+
 
 # **Accessing Data**
 # - Download SHARE Wave 1 and Wave 2 in SPSS format.
@@ -539,5 +545,5 @@ mean(share_final$Months_Between_Appointments)
 sd(share_final$Months_Between_Appointments)
 
 # SAVING FINAL FILE
-write.csv(share_final, file="Preprocessed_SHARE.csv",
+write.csv(share_final, file=file_save_path,
           row.names=FALSE)
